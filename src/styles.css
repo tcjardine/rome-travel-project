@@ -169,6 +169,14 @@ header a:hover {
     background-color: #202444;    
 }
 
+.gallery {
+    text-align: center;
+    line-height: 1.5;
+}
+
+section .img-responsive:hover {
+filter: grayscale(100%);
+}
 
 footer {
     color: white;
@@ -226,6 +234,7 @@ header a {
     padding: 8px;
     letter-spacing: 0.5;
 }
+
 .grid {
     grid-template-columns: 1fr;
 }
