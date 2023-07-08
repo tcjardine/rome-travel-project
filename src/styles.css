@@ -73,11 +73,12 @@ text-decoration: none;
 section {
     max-width: 100%;
     margin: 0 auto;
-    padding: 100px;
+    padding: 120px;
 }
 
 section.secondary {
     background-color: rgb(188, 187, 187);
+    padding: 100px;
 }
 
 header {
@@ -87,7 +88,7 @@ header {
     background-size: cover;
     color: antiquewhite;
     text-align: center;
-    padding: 160px 0;
+    padding: 150px 0;
 }
 
 header h1 {
@@ -176,6 +177,7 @@ header a:hover {
 
 section .img-responsive:hover {
 filter: grayscale(100%);
+
 }
 
 footer {
@@ -214,6 +216,11 @@ footer a {
     opacity: 0.5;
     margin: 0;
     padding: 0;
+}
+
+footer a:hover {
+    color: antiquewhite;
+    opacity: 100%;
 }
 
 @media (max-width: 920px) {
