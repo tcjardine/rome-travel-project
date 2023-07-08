@@ -16,6 +16,12 @@ body {
     grid-gap: 64px;
 }
 
+.img-responsive {
+    width: 100%;
+    display: block;
+
+  }
+
 .grid-2-columns {
     grid-template-columns: 1fr 1fr;
 }
@@ -28,10 +34,20 @@ body {
 grid-template-columns: 1fr 1fr 1fr;
 }
 
+.embed {
+    width: 100%;
+    aspect-ratio: 1 /1;
+}
+
 .card {
     background-color: white;
     margin: 30px 0;
 }
+
+.card-header.grid {
+grid-gap: 0;
+}
+
 
 .card-body {
     padding: 30px;
@@ -217,8 +233,12 @@ section {
     padding: 30px 10px;
     margin: 0;
 }
-.img-responsive {
 
-    max-width: 50%;
+.card-header img {
+    display: none;
+}
+
+.embed {
+    aspect-ratio: 16 / 9;
 }
 }
